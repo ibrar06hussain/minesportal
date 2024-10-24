@@ -1,0 +1,532 @@
+/* body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #333333;
+	margin: 0;
+	padding: 20px;
+	font-size: 0.9rem;
+} */
+
+h1,
+h2 {
+	font-family: "Poppins", sans-serif;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #555;
+	font-weight: 500;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.6rem;
+	color: #555;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.1rem;
+	color: #555;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+small {
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8rem;
+	color: #555;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+strong {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #555;
+}
+
+.todo-container {
+	width: auto;
+	background: white ;
+	/* background: linear-gradient(
+		45deg,
+		rgb(248, 235, 231) 0%,
+		rgb(255, 232, 224) 100%
+	); */
+	/* padding: 20px; */
+	padding-top: 0px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+.header-section-a {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    padding: 20px 20px 0px 0px;
+}
+.header-section-a a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+    padding: 10px 40px;
+}
+.header-section-a a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+.cat-element h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.category-selection {
+	/* margin: 0px 150px; */
+    /* padding: 20px; */
+    background-color: #FFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.categories {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.category {
+	text-align: center;
+	cursor: pointer;
+	padding: 8px 4px;
+	border-radius: 8px;
+	transition: border-color 0.3s ease;
+}
+/* ----------------------------FIRST CARD------------------------------- */
+.category .process-card {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg,#09a5c0  0%, #98f0ff  100%);;
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------FIRST CARD------------------------------- */
+/* ----------------------------SECOND CARD------------------------------- */
+.category .process-card2 {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg, #55314c 0, #e277c7 100%);
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card2 h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card2 a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card2 a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------SECOND CARD------------------------------- */
+/* ----------------------------THIRD CARD------------------------------- */
+.category .process-card3 {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg,#FC6767 0%, #ED57B0 100%);
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card3 h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card3 a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card3 a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------THIRD CARD------------------------------- */
+/* ----------------------------FOURTH CARD------------------------------- */
+.category .process-card4 {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg, #FFE259 15.1%, #FFA751 85.42%);
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card4 h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card4 a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card4 a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------FOURTH CARD------------------------------- */
+/* ----------------------------FIFTH CARD------------------------------- */
+.category .process-card5 {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg, #60D394  15.1%, #227c4a 85.42%);
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card5 h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card5 a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card5 a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------FIFTH CARD------------------------------- */
+/* ----------------------------SIXTH CARD------------------------------- */
+.category .process-card6 {
+	width: auto;
+	height: 100px;
+	object-fit: cover;
+    background: linear-gradient(90deg, #d0070a   15.1%, #F28B8C   85.42%);
+	border-radius: 8px;
+	/* border: 1px solid #311B92; */
+	box-shadow: 2px 3px 2px #311B92;
+}
+
+.category .process-card6 h3{
+    padding-top: 15px;
+    color:#fff;
+}
+.category .process-card6 a{
+    color: #fff;
+    background-color: #311B92;
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.category .process-card6 a:hover{
+    color: #fff;
+    background-color: #4527A0;
+    border-color: #fff;
+    box-shadow: none;
+}
+/* ----------------------------SIXTH CARD------------------------------- */
+.task-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+#task-desc,
+#task-date {
+	padding: 10px;
+	width: 93%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+#task-desc {
+	margin-bottom: 1rem;
+}
+
+#add-task {
+	margin-top: 1rem;
+	padding: 10px 20px;
+	background-color: #2b8ffa;
+	font-size: 0.9rem;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+#add-task:hover {
+	background-color: #0056b3;
+}
+
+ul#todo-list {
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	width: 95%;
+}
+
+li.todo-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+li.todo-item:hover {
+	background: rgb(184, 234, 250);
+	background: linear-gradient(
+		45deg,
+		rgb(211, 240, 248) 0%,
+		rgb(163, 228, 248) 100%
+	);
+}
+
+.todo-item.completed {
+	background-color: #d4edda;
+	text-decoration: line-through;
+}
+
+.todo-item img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+.todo-actions {
+	display: flex;
+	gap: 10px;
+}
+
+button.complete-btn {
+	background-color: #28a745;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+button.delete-btn {
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+button.complete-btn:hover {
+	background-color: #218838;
+}
+
+button.delete-btn:hover {
+	background-color: #c82333;
+}
+
+label {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	color: #555;
+}
+
+.span_title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	color: #555;
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
+	.categories {
+		gap: 0px;
+	}
+
+	.category {
+		padding: 2px;
+	}
+
+	.category img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.span_title {
+		font-size: 0.9rem;
+	}
+
+	strong {
+		margin-top: 5px;
+	}
+
+	.todo-container {
+		width: 90%;
+	}
+
+	.task-input {
+		width: 100%;
+	}
+
+	li.todo-item {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	button.complete-btn {
+		margin-top: 1rem;
+		padding: 3px 5px;
+		font-size: 0.7rem;
+	}
+
+	button.delete-btn {
+		padding: 3px 5px;
+		font-size: 0.7rem;
+	}
+
+	ul#todo-list {
+		padding: 0;
+	}
+
+	/* Ensure the task description wraps correctly on small screens */
+	.todo-item .task-desc {
+		white-space: normal; /* Allow text to wrap */
+		word-wrap: break-word; /* Break long words if necessary */
+		overflow-wrap: break-word;
+		max-width: 100%; /* Use full width for the description */
+		display: inline-block; /* Ensures the description takes up available width */
+	}
+
+	/* Ensure the task and the rest of the text doesn't collapse into a single line */
+	.todo-item div {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.todo-item strong {
+		display: inline-block; /* Ensures that the category name and description are separate */
+		margin-bottom: 5px; /* Adds space below the category name */
+	}
+
+	/* Make sure buttons are stacked vertically with enough space */
+	.todo-actions {
+		flex-direction: row;
+		gap: 5px; /* Space between the buttons */
+	}
+}
+
+
+
+/*-------------LOGO IMAGE ---------------*/
+.item{
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    margin-top:-38px;
+  }
+  
+  #index-gallery{
+    /* width:465px; */
+  }
+  .seven h1 {
+    text-align: center;
+        font-size:20px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows:  0;
+        grid-gap: 10px;
+        align-items: center;
+    }
+    
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #17a2b8;
+        border-top: 1px solid #17a2b8;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+/*-------------LOGO IMAGE---------------*/

@@ -1,0 +1,40 @@
+/* Showcase Section with Flowchart Background */
+/* Clickable Steps */
+.step {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.step:hover {
+    border: 2px solid #ff8c00; /* Highlight on hover */
+}
+
+/* Coordinates for each step (adjust these to fit the exact areas of the image) */
+.step1 { top: 15%; left: 10%; width: 12%; height: 10%; }
+.step2 { top: 15%; left: 25%; width: 12%; height: 10%; }
+.step3 { top: 15%; left: 40%; width: 12%; height: 10%; }
+.step4 { top: 15%; left: 55%; width: 12%; height: 10%; }
+.step5 { top: 15%; left: 70%; width: 12%; height: 10%; }
+.step6 { top: 35%; left: 10%; width: 12%; height: 10%; }
+.step7 { top: 35%; left: 25%; width: 12%; height: 10%; }
+.step8 { top: 35%; left: 40%; width: 12%; height: 10%; }
+.step9 { top: 35%; left: 55%; width: 12%; height: 10%; }
+.step10 { top: 35%; left: 70%; width: 12%; height: 10%; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #showcase {
+        height: 400px; /* Adjust height for smaller screens */
+    }
+    .step { width: 18%; height: 10%; } /* Adjust the clickable areas for smaller devices */
+}
+
+@media (max-width: 480px) {
+    #showcase {
+        height: 300px; /* Further height adjustment for mobile */
+    }
+    .step { width: 25%; height: 12%; } /* Further adjustments for mobile */
+}
